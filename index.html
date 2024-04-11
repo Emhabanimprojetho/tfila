@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>synagogue Em-habanim</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" href= "https://yt3.googleusercontent.com/H1K03ixSAoLW6kfZL7bP9G8iLFJVYhDTbL4tXLyCcyPAY1xHMkGfEhuanJpgkIDhjRQp8PUHUWc=s176-c-k-c0x00ffffff-no-rj">
+    <link rel="apple-tuch-icon"href="https://yt3.googleusercontent.com/H1K03ixSAoLW6kfZL7bP9G8iLFJVYhDTbL4tXLyCcyPAY1xHMkGfEhuanJpgkIDhjRQp8PUHUWc=s176-c-k-c0x00ffffff-no-rj">
+        <link rel="apple-touch-icon-precomposed" href="https://yt3.googleusercontent.com/H1K03ixSAoLW6kfZL7bP9G8iLFJVYhDTbL4tXLyCcyPAY1xHMkGfEhuanJpgkIDhjRQp8PUHUWc=s176-c-k-c0x00ffffff-no-rj">
+	<link rel="icon" href="https://yt3.googleusercontent.com/H1K03ixSAoLW6kfZL7bP9G8iLFJVYhDTbL4tXLyCcyPAY1xHMkGfEhuanJpgkIDhjRQp8PUHUWc=s176-c-k-c0x00ffffff-no-rj">
+     
+	 <link rel="apple-touch-icon" href="https://yt3.googleusercontent.com/H1K03ixSAoLW6kfZL7bP9G8iLFJVYhDTbL4tXLyCcyPAY1xHMkGfEhuanJpgkIDhjRQp8PUHUWc=s176-c-k-c0x00ffffff-no-rj">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://images.emojiterra.com/google/noto-emoji/v2.034/512px/1f54d.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://yt3.googleusercontent.com/H1K03ixSAoLW6kfZL7bP9G8iLFJVYhDTbL4tXLyCcyPAY1xHMkGfEhuanJpgkIDhjRQp8PUHUWc=s176-c-k-c0x00ffffff-no-rj">
+  <link rel="apple-touch-icon" sizes="167x167" href="https://yt3.googleusercontent.com/H1K03ixSAoLW6kfZL7bP9G8iLFJVYhDTbL4tXLyCcyPAY1xHMkGfEhuanJpgkIDhjRQp8PUHUWc=s176-c-k-c0x00ffffff-no-rj">
+  <link rel="apple-touch-startup-image" href="https://yt3.googleusercontent.com/H1K03ixSAoLW6kfZL7bP9G8iLFJVYhDTbL4tXLyCcyPAY1xHMkGfEhuanJpgkIDhjRQp8PUHUWc=s176-c-k-c0x00ffffff-no-rj">
+  <meta name="apple-mobile-web-app-title" content="synagogueV3">
+	  <meta name="msvalidate.01" content="1226D0076B579D9204A60EB108C0F3CA" />
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#9d7153">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#9d7153">
+<meta name="msapplication-TileColor"  media="(prefers-color-scheme: light)" content="#9d7153">
+<meta name="msapplication-TileColor"  media="(prefers-color-scheme: dark)" content="#9d7153">
+<meta name="msapplication-navbutton-color" media="(prefers-color-scheme: light)" content="#9d7153"> 
+<meta name="msapplication-navbutton-color" media="(prefers-color-scheme: dark)" content="#9d7153"> 
+<meta name="apple-mobile-web-app-status-bar-style" media="(prefers-color-scheme: light)" content="#9d7153">
+<meta name="apple-mobile-web-app-status-bar-style" media="(prefers-color-scheme: dark)" content="#9d7153">
+    <style type="text/css">
+
+
+.auto-style1 {
+
+	margin-left: 0;
+}
+</style>
+</head>
+<body>
+
+ <header class="header1" >
+  <nav class="nav">
+    <i class="uil uil-bars navOpenBtn" style="color: white;" ></i>
+    <!--<a href="#" class="logo">c'est pas un vrai site</a>-->
+    <ul class="nav-links">
+      <i class="uil uil-times navCloseBtn" id="searchIcon"></i>
+    <!--  <li><a href="#">Home</a></li>-->
+      <li><a href="https://www.shalhevet.fr/">shalhevet</a></li>
+      <li>
+        <p class="lienyoutube">
+        <a href="https://www.youtube.com/@myshalhevet">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" width="10%" alt="logo Youtube">
+        Notre chaîne youtube</a></li></p>
+    </ul>
+   <a href="#" class="nav-logo "><img src="https://yt3.googleusercontent.com/H1K03ixSAoLW6kfZL7bP9G8iLFJVYhDTbL4tXLyCcyPAY1xHMkGfEhuanJpgkIDhjRQp8PUHUWc=s176-c-k-c0x00ffffff-no-rj" width="30px" alt=""></a>
+  </nav>
+
+
+
+</header>
+<br><br>
+<body onload=showDate();> 
+ <span id='horloge'></span>
+<script>
+  function refresh(){
+             var t = 1000; // rafraîchissement en millisecondes
+             setTimeout('showDate()',t)
+         }
+         
+         function showDate() {
+             var date = new Date()
+             var h = date.getHours();
+             var m = date.getMinutes();
+             var s = date.getSeconds();
+             if( h < 10 ){ h = '0' + h; }
+             if( m < 10 ){ m = '0' + m; }
+             if( s < 10 ){ s = '0' + s; }
+             var time = h + ':' + m + ':' + s
+             document.getElementById('horloge').innerHTML = time;
+             refresh();
+          }
+</script>
+
+<header id="h">
+  <br><br><br><br>
+<h1 id="bon" style="text-align:center; font-size:25PX;">  תזריע </h1>
+
+<!--changer les Horaire-->
+<table id="h1">
+<tr>
+  <!--titre tableau-->
+<h1 id="tit">
+ Semaine - חול   </h1>
+<td id="bri"><h1>
+<!--changement des horaire de la semaine-->
+Chahrit </h1> </td>
+<td id="m">7:40-8:30</td>
+<td id="dr"> <h1 id="dr"> שחרית </h1>
+</td>
+</tr> 
+
+<td><h1> Chahrit (dim)</h1> </td>
+<td id="m">8:00</td>
+<td id="dr"> <h1 id="dr">שחרית יום א׳</h1> </td>
+</tr>
+<tr>
+<td><h1>Minha-arvit</h1> </td>
+<td id="m">20:00</td>
+<td id="dr"> <h1 id="dr">מנחה
+  -ערבית</h1> </td>
+</tr>
+<tr>
+<td><h1>Arvit </h1> </td>
+<td id="m">20:25</td>
+<td id="dr"> <h1 id="dr"> ערבית</h1> </td>
+<!--fin de changement des horaire de la semaine-->
+</tr>
+<tr>
+</table>
+
+<table id="h1">
+<tr> 
+    <!--titre tableau-->
+<h1 id="tit"> שבת </h1>
+<tr>
+  <td><h1>CHIOUR</h1> </td>
+  <td id="m">1 heuree avant Minha</td>
+  <td id="dr"> <h1 id="dr">שיעור</h1> </td>
+  </tr>
+<td id="bri">
+  <!-- changement des horaire de la chabbat-->
+  <h1>
+<h1>
+Minha-Arvit </h1></td>
+<td id="m" >19h00</td>
+<td id="dr"> <h1 id="dr"> מנחה וערבית</h1>
+</td>
+<tr>
+<td><h1>Arvit</h1> </td>
+<td id="m">19h30</td>
+<td id="dr"> <h1 id="dr">ערבית</h1> </td>
+</tr>
+<tr>
+<td><h1>chahrit (pti'ha)</h1> </td>
+<td id="m">8h40</td>
+<td id="dr"> <h1 id="dr">שחרית</h1> </td>
+</tr>
+<tr>
+<td><h1>chahrit</h1> </td>
+<td id="m">9h00</td>
+<td id="dr"> <h1 id="dr">שחרית</h1> </td>
+</tr>
+<tr>
+  <td><h1>2 Chiourim</h1> </td>
+  <td id="m">Aprés chahrit </td>
+  <td id="dr"> <h1 id="dr"> 
+ 2 שיעורים 
+  </h1> </td>
+  </tr>
+<tr>
+<td><h1>Minha </h1> </td>
+<td id="m">19h30</td>
+<td id="dr"> <h1 id="dr"> מנחה </h1> </td>
+</tr>
+<tr>
+<td><h1>Arvit </h1> </td>
+<td id="m">21h30</td>
+<td id="dr"> <h1 id="dr">     
+ ערבית
+
+</h1> 
+<!-- fin de changement des horaire de la chabbat-->
+</td>
+</tr>
+</table>
+<br>
+
+<iframe style="display: block; margin: 0 auto; border: 2px solid #1679AB;
+  padding: 10px;
+background:rgba(255, 252, 252, 0.5);"  width="100%" height="550px" src="https://www.youtube.com/embed/Nh2YCm86UoQ?si=sgwx48FULKln4Wfn"  title="YouTube video player"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<br><br><br><br><br><br><br><br><br>
+</header>
+<script src="script.js"></script>
+</body>
+</html>

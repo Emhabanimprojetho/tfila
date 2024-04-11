@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+body{
+  width:100%;
+  background-color:#074173;}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+}
+li {
+list-style: none;
+}
+
+a {
+font-size: x-large;
+  font-weight: bold;
+  font-family: cursive;
+  text-decoration: none;
+}
+#horloge{
+ color:white;
+    height: 5px;
+     display: flex;
+      align-items: center;
+    justify-content: center;
+    text-indent: -3px;
+    letter-spacing: 2px;
+  font-size:25px;
+font-family: 'Times New Roman', Times, serif;
+  border-radius: 100px;
+ position: fixed;
+  width: 100%;
+
+  }
+
+  .header2{background-color:#074173;}
+  body {
+    background: #074173;
+  }
+
+
+html {
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+}
+.header1{
+  border-bottom: 0px solid #074173;
+    
+ }
+ 
+ #h{
+ border: 10px solid ;
+  background-image:url("https://www.shalhevet.fr/wp-content/uploads/2022/02/WhatsApp-Image-2022-02-20-at-22.05.13-1.jpeg");
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+ }
+ #tit{text-align: center;
+  font-size:30px;
+  color:#074173;}
+  #dr{text-align: right;
+  }
+  #bri{text-align:left;}
+   #dr{text-align: right;}
+  #m{text-align: center;
+ font-size: xx-large;
+  font-weight: bold;
+  }
+  
+  td{color:black; 
+  font-weight: bold;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-size: medium;
+  }
+ #h1{
+  background-color:rgba(255, 252, 252, 0.5);
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: black;
+    border: 10px double #1679AB;
+  }
+ #bon{
+font-size: x-large;
+font-family: cursive;
+  border: solid #1679AB  5px;
+    padding: 10px;
+    border-radius: 10px 100px / 120px;
+  width:40%;
+  background:rgba(255, 252, 252, 0.5);
+  display: block; margin: 0 auto;
+  color:black;}
+ 
+li {
+list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 200px;
+  background: #074173 ;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.nav,
+.nav .nav-links {
+  display: flex;
+  align-items: center;
+}
+.nav {
+  justify-content: space-between;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.nav .logo {
+  font-size: 10px;
+  font-weight: 400;
+}
+.nav .nav-links {
+  column-gap: 20px;
+  list-style: none;
+}
+.nav .nav-links a {
+  transition: all 0.2s linear;
+}
+.nav.openSearch .nav-links a {
+  opacity: 0;
+  pointer-events: none;
+}
+.nav .search-icon {
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+}
+.nav .search-box {
+  position: absolute;
+  right: 250px;
+  height: 45px;
+  max-width: 555px;
+  width: 100%;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.2s linear;
+}
+.nav.openSearch .search-box {
+  opacity: 1;
+  pointer-events: auto;
+}
+.search-box .search-icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  left: 15px;
+  color: #074173;
+  transform: translateY(-50%);
+}
+
+.nav .navOpenBtn,
+.nav .navCloseBtn {
+  display: none;
+}
+/* responsive */
+@media screen and (max-width: 1160px) {
+  .nav {
+    padding: 15px 100px;
+  }
+  .nav .search-box {
+    right: 150px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .nav {
+    padding: 15px 50px;
+  }
+  .nav .search-box {
+    right: 100px;
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 3000px) {
+  .nav .navOpenBtn,
+  .nav .navCloseBtn {
+    display: block;
+  }
+  .nav {
+    padding: 15px 20px;
+  }
+  .nav .nav-links {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    height: 100%;
+    max-width: 280px;
+    width: 100%;
+    padding-top: 100px;
+    row-gap: 30px;
+    flex-direction: column;
+    background-color: #074173;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease;
+    z-index: 100;
+  }
+  .lienyoutube{
+    text-align: center;
+  }
+  .nav.openNav .nav-links {
+    left: 0;
+  }
+  .nav .navOpenBtn {
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .nav .navCloseBtn {
+    position: relative;
+    top: -30px;
+    left: 110px;
+    color: whitesmoke;
+    font-size: 20px;
+    border: solid 10px #1679AB;
+    border-radius: 50% 50% 50% 50%;
+    background-color: #1679AB;
+    cursor: pointer;
+  }
+  .nav .search-box {
+    top: calc(100% + 10px);
+    max-width: calc(100% - 20px);
+    right: 50%;
+    transform: translateX(50%);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+ 
+}
