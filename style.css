@@ -7,7 +7,9 @@ body{
   padding: 0;
   box-sizing: border-box;
 }
-
+.hf{
+  font-size: x-large;
+}
 
 html {
   font-size: 62.5%;
@@ -55,7 +57,8 @@ html {
  }
  
  #h{
-border: 10px solid #074173 ;
+  width: 100%;
+ border: 10px solid #074173 ;
   background-image:url("https://www.shalhevet.fr/wp-content/uploads/2022/02/WhatsApp-Image-2022-02-20-at-22.05.13-1.jpeg");
  background-size: 100% 100%;
  background-repeat: no-repeat;
@@ -64,11 +67,12 @@ border: 10px solid #074173 ;
   font-size:30px;
   color:#074173;}
   #dr{text-align: right;
+    font-size: x-large;
   }
   #bri{text-align:left;}
    #dr{text-align: right;}
   #m{text-align: center;
- font-size: xx-large;
+ font-size: x-large;
   font-weight: bold;
   }
   
