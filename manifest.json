@@ -1,6 +1,6 @@
 {
-  "name": "synagogue Em-habanim",
-  "short_name": "synagogue Em-habanim",
+  "name": "Em-habanim",
+  "short_name": "Em-habanim",
   "lang": "FR-fr",
   "start_url": "./index.html",
   "display": "standalone",
