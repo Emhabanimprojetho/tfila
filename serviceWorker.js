@@ -1,4 +1,4 @@
-var cacheName = 'Torah-cours';
+var cacheName = 'synagogue Em-habanim';
 
 var filesToCache = [
 
