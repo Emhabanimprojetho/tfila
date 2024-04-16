@@ -68,6 +68,7 @@ border: 10px solid #074173 ;
  background-attachment: fixed;
  background-position: top; 
  background-size:cover;
+ scroll-behavior: smooth;
  }
  #tit{text-align: center;
   font-size:30px;
