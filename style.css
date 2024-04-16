@@ -62,12 +62,12 @@ html {
  }
  
  #h{
-
- border: 10px solid #074173 ;
-  background-image:url("bck.jpg");
-  background-size: 99% 99%;
- background-position: center;
+border: 10px solid #074173 ;
+ background-image:url("bckt.svg");
  background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: top; 
+ background-size:cover;
  }
  #tit{text-align: center;
   font-size:30px;
