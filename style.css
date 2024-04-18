@@ -67,7 +67,7 @@ html {
  background-attachment: fixed;
  background-position: top; 
  background-size:cover;
-border: 25px solid black;
+border: 25px solid #074173;
   border-radius:50px;
   padding:20px;
  scroll-behavior: smooth;
