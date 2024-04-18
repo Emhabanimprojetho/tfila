@@ -63,7 +63,7 @@ html {
  
  #h{
 border: 10px solid #074173 ;
-    border-radius: 10px 100px / 120px;
+    border-radius: 50px;
  background-image:url("bck.jpg");
  background-repeat: no-repeat;
  background-attachment: fixed;
