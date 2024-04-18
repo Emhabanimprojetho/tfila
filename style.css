@@ -61,7 +61,8 @@ html {
     
  }
  
- #hborder: 25px solid #074173;
+ #h{
+border: 25px solid #074173;
   border-radius:50px;
  background-image:url("bck.jpg");
  background-repeat: no-repeat;
