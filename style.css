@@ -68,7 +68,7 @@ html {
  background-position: top; 
  background-size:cover;
 border: 10px solid #074173 ;
-    border-radius: 20% 20% 20% 20%;
+    border-radius: 25px;
  scroll-behavior: smooth;
  }
  #tit{text-align: center;
