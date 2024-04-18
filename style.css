@@ -62,13 +62,13 @@ html {
  }
  
  #h{
-border: 10px solid #074173 ;
-    border-radius: 50% 50% 50% 50%;
  background-image:url("bck.jpg");
  background-repeat: no-repeat;
  background-attachment: fixed;
  background-position: top; 
  background-size:cover;
+border: 10px solid #074173 ;
+    border-radius: 50% 50% 50% 50%;
  scroll-behavior: smooth;
  }
  #tit{text-align: center;
